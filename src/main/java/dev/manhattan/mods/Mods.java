@@ -1,5 +1,6 @@
 package dev.manhattan.mods;
 
+import dev.manhattan.mods.init.BlocksInit;
 import dev.manhattan.mods.init.ItemsInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -13,8 +14,10 @@ public class Mods {
     public Mods() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
+
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemsInit.ITEMS.register(bus);
+        BlocksInit.BLOCKS.register(bus);
     }
 
     private void setup(FMLClientSetupEvent e) {

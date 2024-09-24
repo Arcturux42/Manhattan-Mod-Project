@@ -2,6 +2,7 @@ package dev.manhattan.mods.init;
 
 import dev.manhattan.mods.Mods;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,5 +20,11 @@ public class ItemsInit {
                             .saturationMod(0.1f)
                             .build())
                     .rarity(Rarity.COMMON)
+            ));
+
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_ITEM = ITEMS.register("uranium_block",
+            () -> new BlockItem(BlocksInit.URANIUM_BLOCK.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
             ));
 }
