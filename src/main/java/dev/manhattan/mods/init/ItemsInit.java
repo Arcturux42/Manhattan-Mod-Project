@@ -33,4 +33,10 @@ public class ItemsInit {
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             ));
+
+    public static final RegistryObject<BlockItem> CARBON_BLOCK_ITEM = ITEMS.register("carbon_block",
+            () -> new BlockItem(BlocksInit.CARBON_BLOCK.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            ));
 }

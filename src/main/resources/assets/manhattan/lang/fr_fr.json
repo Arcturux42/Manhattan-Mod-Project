@@ -1,5 +1,6 @@
 {
   "item.manhattan.chocolate": "Chocolat",
   "block.manhattan.uranium_block": "Block d'uranium",
-  "block.manhattan.lead_block": "Block de plomb"
+  "block.manhattan.lead_block": "Block de plomb",
+  "block.manhattan.carbon_block": "Block de carbon"
 }

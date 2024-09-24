@@ -22,4 +22,10 @@ public class BlocksInit {
                     .strength(5.0f, 7f)
                     .requiresCorrectToolForDrops()
             ));
+
+    public static final RegistryObject<Block> CARBON_BLOCK = BLOCKS.register("carbon_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.0f, 1f)
+                    .lightLevel(state -> 50)
+            ));
 }
