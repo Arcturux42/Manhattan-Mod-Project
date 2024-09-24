@@ -16,4 +16,10 @@ public class BlocksInit {
                     .lightLevel(state -> 15)
                     .requiresCorrectToolForDrops()
             ));
+
+    public static final RegistryObject<Block> LEAD_BLOCK = BLOCKS.register("lead_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0f, 7f)
+                    .requiresCorrectToolForDrops()
+            ));
 }

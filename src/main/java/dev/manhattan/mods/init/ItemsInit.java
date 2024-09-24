@@ -27,4 +27,10 @@ public class ItemsInit {
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             ));
+
+    public static final RegistryObject<BlockItem> LEAD_BLOCK_ITEM = ITEMS.register("lead_block",
+            () -> new BlockItem(BlocksInit.LEAD_BLOCK.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            ));
 }
