@@ -39,4 +39,10 @@ public class ItemsInit {
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             ));
+
+    public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore",
+            () -> new BlockItem(BlocksInit.LEAD_ORE.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            ));
 }

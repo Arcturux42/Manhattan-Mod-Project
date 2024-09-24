@@ -28,4 +28,11 @@ public class BlocksInit {
                     .strength(1.0f, 1f)
                     .lightLevel(state -> 50)
             ));
+
+    public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.0f, 1f)
+                    .lightLevel(state -> 50)
+                    .requiresCorrectToolForDrops()
+            ));
 }
