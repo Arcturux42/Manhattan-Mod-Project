@@ -9,6 +9,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import static dev.manhattan.mods.init.CreativeTabInit.addToTab;
+
 public class ItemsInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mods.MODID);
 
@@ -22,27 +24,27 @@ public class ItemsInit {
                     .rarity(Rarity.COMMON)
             ));
 
-    public static final RegistryObject<BlockItem> URANIUM_BLOCK_ITEM = ITEMS.register("uranium_block",
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_ITEM = addToTab(ITEMS.register("uranium_block",
             () -> new BlockItem(BlocksInit.URANIUM_BLOCK.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
-            ));
+            )));
 
-    public static final RegistryObject<BlockItem> LEAD_BLOCK_ITEM = ITEMS.register("lead_block",
+    public static final RegistryObject<BlockItem> LEAD_BLOCK_ITEM = addToTab(ITEMS.register("lead_block",
             () -> new BlockItem(BlocksInit.LEAD_BLOCK.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
-            ));
+            )));
 
-    public static final RegistryObject<BlockItem> CARBON_BLOCK_ITEM = ITEMS.register("carbon_block",
+    public static final RegistryObject<BlockItem> CARBON_BLOCK_ITEM = addToTab(ITEMS.register("carbon_block",
             () -> new BlockItem(BlocksInit.CARBON_BLOCK.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
-            ));
+            )));
 
-    public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore",
+    public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = addToTab(ITEMS.register("lead_ore",
             () -> new BlockItem(BlocksInit.LEAD_ORE.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
-            ));
+            )));
 }

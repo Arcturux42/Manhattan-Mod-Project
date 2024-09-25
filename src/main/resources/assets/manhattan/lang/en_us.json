@@ -3,5 +3,6 @@
   "block.manhattan.uranium_block": "Uranium block",
   "block.manhattan.lead_block": "Lead block",
   "block.manhattan.carbon_block": "Carbon block",
-  "block.manhattan.lead_ore": "Lead ore"
+  "block.manhattan.lead_ore": "Lead ore",
+  "itemGroup.manhattan.manhattan_tab": "Manhattan tab"
 }

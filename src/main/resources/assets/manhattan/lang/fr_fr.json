@@ -3,5 +3,6 @@
   "block.manhattan.uranium_block": "Block d'uranium",
   "block.manhattan.lead_block": "Block de plomb",
   "block.manhattan.carbon_block": "Block de carbon",
-  "block.manhattan.lead_ore": "Minerai de plomb"
+  "block.manhattan.lead_ore": "Minerai de plomb",
+  "itemGroup.manhattan.manhattan_tab": "Onglet Manhattan"
 }
