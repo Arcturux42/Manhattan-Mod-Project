@@ -113,4 +113,10 @@ public class ItemsInit {
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
             )));
+
+    public static final RegistryObject<BlockItem> URANIUM_ORE_ITEM = addToTab(ITEMS.register("uranium_ore",
+            () -> new BlockItem(BlocksInit.URANIUM_ORE.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            )));
 }

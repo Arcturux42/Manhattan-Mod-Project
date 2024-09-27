@@ -1,7 +1,9 @@
 package dev.manhattan.mods.init;
 
 import dev.manhattan.mods.Mods;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,5 +36,14 @@ public class BlocksInit {
                     .strength(1.0f, 1f)
                     .lightLevel(state -> 50)
                     .requiresCorrectToolForDrops()
+            ));
+
+    public static final RegistryObject<DropExperienceBlock> URANIUM_ORE = BLOCKS.register("uranium_ore",
+            () -> new DropExperienceBlock(
+                    BlockBehaviour.Properties.of()
+                        .strength(1.0f, 1f)
+                        .lightLevel(state -> 50)
+                        .requiresCorrectToolForDrops(),
+                    UniformInt.of(4, 7)
             ));
 }
