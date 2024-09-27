@@ -2,9 +2,7 @@ package dev.manhattan.mods.init;
 
 import dev.manhattan.mods.Mods;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -46,5 +44,73 @@ public class ItemsInit {
             () -> new BlockItem(BlocksInit.LEAD_ORE.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
+            )));
+
+    public static final RegistryObject<SwordItem> LEAD_SWORD = addToTab(ITEMS.register("lead_sword",
+            () -> new SwordItem(
+                    TiersInit.LEAD,
+                    7,
+                    2.5f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<PickaxeItem> LEAD_PICKAXE = addToTab(ITEMS.register("lead_pickaxe",
+            () -> new PickaxeItem(
+                    TiersInit.LEAD,
+                    7,
+                    2.5f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<AxeItem> LEAD_AXE = addToTab(ITEMS.register("lead_axe",
+            () -> new AxeItem(
+                    TiersInit.LEAD,
+                    7,
+                    2.5f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ShovelItem> LEAD_SHOVEL = addToTab(ITEMS.register("lead_shovel",
+            () -> new ShovelItem(
+                    TiersInit.LEAD,
+                    7,
+                    2.5f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<HoeItem> LEAD_HOE = addToTab(ITEMS.register("lead_hoe",
+            () -> new HoeItem(
+                    TiersInit.LEAD,
+                    7,
+                    2.5f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> LEAD_HELMET = addToTab(ITEMS.register("lead_helmet",
+            () -> new ArmorItem(
+                    ArmorMaterialInit.LEAD,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> LEAD_CHESTPLATE = addToTab(ITEMS.register("lead_chestplate",
+            () -> new ArmorItem(
+                    ArmorMaterialInit.LEAD,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> LEAD_LEGGINGS = addToTab(ITEMS.register("lead_leggings",
+            () -> new ArmorItem(
+                    ArmorMaterialInit.LEAD,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> LEAD_BOOTS = addToTab(ITEMS.register("lead_boots",
+            () -> new ArmorItem(
+                    ArmorMaterialInit.LEAD,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties()
             )));
 }

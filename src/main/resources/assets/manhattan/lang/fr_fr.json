@@ -4,5 +4,14 @@
   "block.manhattan.lead_block": "Block de plomb",
   "block.manhattan.carbon_block": "Block de carbon",
   "block.manhattan.lead_ore": "Minerai de plomb",
-  "itemGroup.manhattan.manhattan_tab": "Onglet Manhattan"
+  "itemGroup.manhattan.manhattan_tab": "Onglet Manhattan",
+  "item.manhattan.lead_sword": "Épée en plomb",
+  "item.manhattan.lead_axe": "Ache en plomb",
+  "item.manhattan.lead_pickaxe": "Pioche en plomb",
+  "item.manhattan.lead_shovel": "Pelle en plomb",
+  "item.manhattan.lead_hoe": "Houe en plomb",
+  "item.manhattan.lead_helmet": "Casque en plomb",
+  "item.manhattan.lead_chestplate": "Plastron en plomb",
+  "item.manhattan.lead_leggings": "Leggin en plomb",
+  "item.manhattan.lead_boots": "Botte en plomb"
 }
