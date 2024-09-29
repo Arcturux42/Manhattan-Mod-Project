@@ -7,13 +7,13 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 public class ArmorMaterialInit {
     public static final ModArmorMaterial LEAD = new ModArmorMaterial(
-            new int[] {500, 1200, 600, 400},
-            new int[] {11, 16, 15, 13},
-            20,
-            SoundEvents.FOX_TELEPORT,
+            new int[] {300, 900, 450, 240},
+            new int[] {2, 3, 5, 2},
+            12,
+            SoundEvents.ARMOR_EQUIP_GENERIC,
             () -> Ingredient.of(ItemsInit.LEAD_BLOCK_ITEM::get),
             "lead",
-            0.25f,
-            0.15f
+            0.12f,
+            0.20f
     );
 }
