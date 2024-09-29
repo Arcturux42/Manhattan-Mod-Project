@@ -2,7 +2,6 @@ package dev.manhattan.mods.init;
 
 import dev.manhattan.mods.init.tiers.ModArmorMaterial;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public class ArmorMaterialInit {
