@@ -49,40 +49,40 @@ public class ItemsInit {
     public static final RegistryObject<SwordItem> LEAD_SWORD = addToTab(ITEMS.register("lead_sword",
             () -> new SwordItem(
                     TiersInit.LEAD,
-                    7,
-                    2.5f,
+                    3,
+                    -0.6f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<PickaxeItem> LEAD_PICKAXE = addToTab(ITEMS.register("lead_pickaxe",
             () -> new PickaxeItem(
                     TiersInit.LEAD,
-                    7,
-                    2.5f,
+                    2,
+                    1.2f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<AxeItem> LEAD_AXE = addToTab(ITEMS.register("lead_axe",
             () -> new AxeItem(
                     TiersInit.LEAD,
-                    7,
-                    2.5f,
+                    2,
+                    1.2f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<ShovelItem> LEAD_SHOVEL = addToTab(ITEMS.register("lead_shovel",
             () -> new ShovelItem(
                     TiersInit.LEAD,
-                    7,
-                    2.5f,
+                    1,
+                    1.5f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<HoeItem> LEAD_HOE = addToTab(ITEMS.register("lead_hoe",
             () -> new HoeItem(
                     TiersInit.LEAD,
-                    7,
-                    2.5f,
+                    1,
+                    1.5f,
                     new Item.Properties()
             )));
 
