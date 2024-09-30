@@ -125,4 +125,10 @@ public class ItemsInit {
                     .stacksTo(64)
                     .rarity(Rarity.COMMON)
             )));
+
+    public static final RegistryObject<Item> YELLOWCAKE = addToTab(ITEMS.register("yellowcake",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.COMMON)
+            )));
 }
