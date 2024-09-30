@@ -14,5 +14,6 @@
   "item.manhattan.lead_chestplate": "Lead chestplate",
   "item.manhattan.lead_leggings": "Lead leggins",
   "item.manhattan.lead_boots": "Lead boots",
-  "block.manhattan.uranium_ore": "Uranium ore"
+  "block.manhattan.uranium_ore": "Uranium ore",
+  "item.manhattan.uranium_raw": "Uranium raw"
 }

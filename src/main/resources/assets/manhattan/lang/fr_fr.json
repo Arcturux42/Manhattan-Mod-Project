@@ -14,5 +14,6 @@
   "item.manhattan.lead_chestplate": "Plastron en plomb",
   "item.manhattan.lead_leggings": "Leggin en plomb",
   "item.manhattan.lead_boots": "Botte en plomb",
-  "block.manhattan.uranium_ore": "Minerai d'uranium"
+  "block.manhattan.uranium_ore": "Minerai d'uranium",
+  "item.manhattan.uranium_raw": "Uranium brut"
 }

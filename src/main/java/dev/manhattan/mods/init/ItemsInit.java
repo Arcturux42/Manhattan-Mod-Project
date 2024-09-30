@@ -119,4 +119,10 @@ public class ItemsInit {
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             )));
+
+    public static final RegistryObject<Item> URANIUM_RAW = addToTab(ITEMS.register("uranium_raw",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.COMMON)
+            )));
 }
