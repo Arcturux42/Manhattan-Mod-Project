@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "manhattan:chocolate",
+              "name": "manhattan:uranium_raw",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
