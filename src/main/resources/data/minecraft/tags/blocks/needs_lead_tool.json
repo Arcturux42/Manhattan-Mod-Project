@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "manhattan:uranium_block"
+    "manhattan:uranium_block",
+    "manhattan:uranium_ore"
   ]
 }
