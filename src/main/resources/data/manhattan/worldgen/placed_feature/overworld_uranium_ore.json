@@ -1,5 +1,5 @@
 {
-  "feature": "manhattan_uranium_ore",
+  "feature": "manhattan:overworld_uranium_ore",
   "placement": [
     {
       "type": "minecraft:count",
