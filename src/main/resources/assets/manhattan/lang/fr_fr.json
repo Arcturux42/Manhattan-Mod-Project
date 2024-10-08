@@ -16,5 +16,8 @@
   "item.manhattan.lead_boots": "Botte en plomb",
   "block.manhattan.uranium_ore": "Minerai d'uranium",
   "item.manhattan.uranium_raw": "Uranium brut",
-  "item.manhattan.yellowcake": "Yellowcake"
+  "item.manhattan.yellowcake": "Yellowcake",
+  "item.manhattan.cheese": "Fromage",
+  "block.manhattan.deepslate_lead_ore": "Minerai de Plomb des Abîmes",
+  "block.manhattan.deepslate_uranium_ore": "Minerai d'Uranium des Abîmes"
 }

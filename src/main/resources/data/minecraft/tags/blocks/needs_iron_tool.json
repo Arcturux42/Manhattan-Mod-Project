@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "manhattan:uranium_block",
     "manhattan:lead_block",
     "manhattan:lead_ore"
   ]

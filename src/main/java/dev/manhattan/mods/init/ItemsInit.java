@@ -21,6 +21,15 @@ public class ItemsInit {
                             .build())
                     .rarity(Rarity.COMMON)
             ));
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(3)
+                            .saturationMod(0.1f)
+                            .build())
+                    .rarity(Rarity.COMMON)
+            ));
 
     public static final RegistryObject<BlockItem> URANIUM_BLOCK_ITEM = addToTab(ITEMS.register("uranium_block",
             () -> new BlockItem(BlocksInit.URANIUM_BLOCK.get(),
@@ -42,6 +51,12 @@ public class ItemsInit {
 
     public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = addToTab(ITEMS.register("lead_ore",
             () -> new BlockItem(BlocksInit.LEAD_ORE.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            )));
+
+    public static final RegistryObject<BlockItem> DEEPSLATE_LEAD_ORE_ITEM = addToTab(ITEMS.register("deepslate_lead_ore",
+            () -> new BlockItem(BlocksInit.DEEPSLATE_LEAD_ORE.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             )));
@@ -116,6 +131,11 @@ public class ItemsInit {
 
     public static final RegistryObject<BlockItem> URANIUM_ORE_ITEM = addToTab(ITEMS.register("uranium_ore",
             () -> new BlockItem(BlocksInit.URANIUM_ORE.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            )));
+    public static final RegistryObject<BlockItem> DEEPSLATE_URANIUM_ORE_ITEM = addToTab(ITEMS.register("deepslate_uranium_ore",
+            () -> new BlockItem(BlocksInit.DEEPSLATE_URANIUM_ORE.get(),
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             )));

@@ -16,5 +16,8 @@
   "item.manhattan.lead_boots": "Lead boots",
   "block.manhattan.uranium_ore": "Uranium ore",
   "item.manhattan.uranium_raw": "Uranium raw",
-  "item.manhattan.yellowcake": "Yellowcake"
+  "item.manhattan.yellowcake": "Yellowcake",
+  "item.manhattan.cheese": "Cheese",
+  "block.manhattan.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.manhattan.deepslate_uranium_ore": "Deepslate Uranium Ore"
 }

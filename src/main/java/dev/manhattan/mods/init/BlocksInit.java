@@ -37,6 +37,11 @@ public class BlocksInit {
                     .lightLevel(state -> 50)
                     .requiresCorrectToolForDrops()
             ));
+    public static final RegistryObject<Block> DEEPSLATE_LEAD_ORE = BLOCKS.register("deepslate_lead_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.0f, 1f)
+                    .requiresCorrectToolForDrops()
+            ));
 
     public static final RegistryObject<DropExperienceBlock> URANIUM_ORE = BLOCKS.register("uranium_ore",
             () -> new DropExperienceBlock(
@@ -44,6 +49,14 @@ public class BlocksInit {
                         .strength(1.0f, 1f)
                         .lightLevel(state -> 50)
                         .requiresCorrectToolForDrops(),
+                    UniformInt.of(4, 7)
+            ));
+    public static final RegistryObject<DropExperienceBlock> DEEPSLATE_URANIUM_ORE = BLOCKS.register("deepslate_uranium_ore",
+            () -> new DropExperienceBlock(
+                    BlockBehaviour.Properties.of()
+                            .strength(1.0f, 1f)
+                            .lightLevel(state -> 50)
+                            .requiresCorrectToolForDrops(),
                     UniformInt.of(4, 7)
             ));
 }

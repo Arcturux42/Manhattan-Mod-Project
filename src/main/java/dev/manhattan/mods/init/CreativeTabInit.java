@@ -54,6 +54,23 @@ public class CreativeTabInit {
 
         if(event.getTabKey().equals(CreativeModeTabs.NATURAL_BLOCKS)) {
             event.accept(ItemsInit.LEAD_ORE_ITEM);
+            event.accept(ItemsInit.URANIUM_ORE_ITEM);
+        }
+        if(event.getTabKey().equals(CreativeModeTabs.COMBAT)) {
+            event.accept(ItemsInit.LEAD_SWORD);
+            event.accept(ItemsInit.LEAD_CHESTPLATE);
+            event.accept(ItemsInit.LEAD_HELMET);
+            event.accept(ItemsInit.LEAD_LEGGINGS);
+            event.accept(ItemsInit.LEAD_BOOTS);
+        }
+        if(event.getTabKey().equals(CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+            event.accept(ItemsInit.LEAD_AXE);
+            event.accept(ItemsInit.LEAD_HOE);
+            event.accept(ItemsInit.LEAD_PICKAXE);
+            event.accept(ItemsInit.LEAD_SHOVEL);
+        }
+        if(event.getTabKey().equals(CreativeModeTabs.INGREDIENTS)) {
+            event.accept(ItemsInit.YELLOWCAKE);
         }
     }
 }
