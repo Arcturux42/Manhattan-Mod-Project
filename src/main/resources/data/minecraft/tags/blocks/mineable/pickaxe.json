@@ -3,6 +3,7 @@
   "values": [
     "manhattan:uranium_block",
     "manhattan:lead_block",
-    "manhattan:lead_ore"
+    "manhattan:lead_ore",
+    "manhattan:uranium_ore"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "manhattan:pizza"
+    }
+  ],
+  "result": {
+    "item": "manhattan:slice_of_pizza",
+    "count": 6
+  }
+}

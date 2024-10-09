@@ -19,5 +19,9 @@
   "item.manhattan.yellowcake": "Yellowcake",
   "item.manhattan.cheese": "Cheese",
   "block.manhattan.deepslate_lead_ore": "Deepslate Lead Ore",
-  "block.manhattan.deepslate_uranium_ore": "Deepslate Uranium Ore"
+  "block.manhattan.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "item.manhattan.pizza": "honey goat cheese Pizza",
+  "item.manhattan.uranium_ingot": "Uranium Ingot",
+  "item.manhattan.lead_ingot": "Lead Ingot",
+  "item.manhattan.slice_of_pizza":"Slice of Pizza"
 }

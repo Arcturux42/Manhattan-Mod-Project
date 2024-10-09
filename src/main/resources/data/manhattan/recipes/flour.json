@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    "EE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "manhattan:flour",
+    "count": 4
+  },
+  "show_notification": false
+}
