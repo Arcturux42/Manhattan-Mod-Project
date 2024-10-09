@@ -55,25 +55,25 @@ public class CreativeTabInit {
 
             event.getEntries()
                     .putAfter(
-                            Items.PUMPKIN.getDefaultInstance(),
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
                             ItemsInit.CHEESE.get().getDefaultInstance(),
                             CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.getEntries()
                     .putAfter(
-                            Items.PUMPKIN.getDefaultInstance(),
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
                             ItemsInit.CHOCOLATE.get().getDefaultInstance(),
                             CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.getEntries()
                     .putAfter(
-                            Items.PUMPKIN.getDefaultInstance(),
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
                             ItemsInit.SLICE_OF_PIZZA.get().getDefaultInstance(),
                             CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.getEntries()
                     .putAfter(
-                            Items.PUMPKIN.getDefaultInstance(),
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
                             ItemsInit.PIZZA.get().getDefaultInstance(),
                             CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
