@@ -6,9 +6,12 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,7 +34,7 @@ public class CreativeTabInit {
                     .displayItems((displayParams, output) ->
                             MANHATTAN_TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get()))
                     )
-                    .withSearchBar()
+                    .withSearchBar(80)
                     .build()
     );
 
@@ -43,17 +46,99 @@ public class CreativeTabInit {
     @SubscribeEvent
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey().equals(CreativeModeTabs.BUILDING_BLOCKS)) {
-            event.accept(ItemsInit.URANIUM_BLOCK_ITEM);
+            event.getEntries().putAfter(Items.BASALT.getDefaultInstance(), ItemsInit.URANIUM_BLOCK_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.accept(ItemsInit.CARBON_BLOCK_ITEM);
             event.accept(ItemsInit.LEAD_BLOCK_ITEM);
         }
 
         if(event.getTabKey().equals(CreativeModeTabs.FOOD_AND_DRINKS)) {
-            event.accept(ItemsInit.CHOCOLATE);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
+                            ItemsInit.CHEESE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
+                            ItemsInit.CHOCOLATE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
+                            ItemsInit.SLICE_OF_PIZZA.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.PUMPKIN_PIE.getDefaultInstance(),
+                            ItemsInit.PIZZA.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
         if(event.getTabKey().equals(CreativeModeTabs.NATURAL_BLOCKS)) {
             event.accept(ItemsInit.LEAD_ORE_ITEM);
+            event.accept(ItemsInit.URANIUM_ORE_ITEM);
+        }
+        if(event.getTabKey().equals(CreativeModeTabs.COMBAT)) {
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_SWORD.getDefaultInstance(),
+                            ItemsInit.LEAD_SWORD.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_BOOTS.getDefaultInstance(),
+                            ItemsInit.LEAD_BOOTS.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_BOOTS.getDefaultInstance(),
+                            ItemsInit.LEAD_LEGGINGS.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_BOOTS.getDefaultInstance(),
+                            ItemsInit.LEAD_HELMET.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_BOOTS.getDefaultInstance(),
+                            ItemsInit.LEAD_CHESTPLATE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+        if(event.getTabKey().equals(CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_HOE.getDefaultInstance(),
+                            ItemsInit.LEAD_HOE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_HOE.getDefaultInstance(),
+                            ItemsInit.LEAD_AXE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_HOE.getDefaultInstance(),
+                            ItemsInit.LEAD_PICKAXE.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries()
+                    .putAfter(
+                            Items.NETHERITE_HOE.getDefaultInstance(),
+                            ItemsInit.LEAD_SHOVEL.get().getDefaultInstance(),
+                            CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        if(event.getTabKey().equals(CreativeModeTabs.INGREDIENTS)) {
+            event.accept(ItemsInit.YELLOWCAKE);
         }
     }
 }

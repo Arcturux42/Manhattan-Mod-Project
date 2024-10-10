@@ -16,5 +16,12 @@
   "item.manhattan.lead_boots": "Botte en plomb",
   "block.manhattan.uranium_ore": "Minerai d'uranium",
   "item.manhattan.uranium_raw": "Uranium brut",
-  "item.manhattan.yellowcake": "Yellowcake"
+  "item.manhattan.yellowcake": "Yellowcake",
+  "item.manhattan.cheese": "Fromage",
+  "block.manhattan.deepslate_lead_ore": "Minerai de Plomb des Abîmes",
+  "block.manhattan.deepslate_uranium_ore": "Minerai d'Uranium des Abîmes",
+  "item.manhattan.pizza": "Pizza chèvre miel",
+  "item.manhattan.uranium_ingot": "Lingot d'Uranium",
+  "item.manhattan.lead_ingot": "Lingot de Plomb",
+  "item.manhattan.slice_of_pizza": "Part de Pizza"
 }

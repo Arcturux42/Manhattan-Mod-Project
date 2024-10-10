@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "EZE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "manhattan:flour"
+    },
+    "A": {
+      "item": "manhattan:cheese"
+    },
+    "Z": {
+      "item": "minecraft:milk_bucket"
+    },
+    "R": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "manhattan:pizza"
+  },
+  "show_notification": false
+}

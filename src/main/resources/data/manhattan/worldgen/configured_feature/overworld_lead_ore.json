@@ -1,8 +1,8 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 2,
-    "discard_chance_on_air_exposure": 0.2,
+    "size": 5,
+    "discard_chance_on_air_exposure": 0,
     "targets": [
       {
         "target": {
@@ -10,7 +10,7 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "manhattan:uranium_ore"
+          "Name": "manhattan:lead_ore"
         }
       },
       {
@@ -19,7 +19,7 @@
           "tag": "minecraft:deepslate_ore_replaceables"
         },
         "state": {
-          "Name": "manhattan:deepslate_uranium_ore"
+          "Name": "manhattan:deepslate_lead_ore"
         }
       }
     ]

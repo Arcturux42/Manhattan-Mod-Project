@@ -1,9 +1,9 @@
 {
-  "feature": "manhattan:overworld_uranium_ore",
+  "feature": "manhattan:overworld_lead_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 2
+      "count": 20
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": -50
+          "above_bottom": 25
         },
         "max_inclusive": {
-          "absolute": 20
+          "absolute": -15
         }
       }
     },
@@ -25,4 +25,3 @@
     }
   ]
 }
-
