@@ -4,7 +4,7 @@
   "block.manhattan.lead_block": "Lead block",
   "block.manhattan.carbon_block": "Carbon block",
   "block.manhattan.lead_ore": "Lead ore",
-  "itemGroup.manhattan.manhattan_tab": "Manhattan tab",
+  "itemGroup.manhattan.manhattan_tab": "Manhattan",
   "item.manhattan.lead_sword": "Lead sword",
   "item.manhattan.lead_axe": "Lead axe",
   "item.manhattan.lead_pickaxe": "Lead pickaxe",
@@ -16,5 +16,7 @@
   "item.manhattan.lead_boots": "Lead boots",
   "block.manhattan.uranium_ore": "Uranium ore",
   "item.manhattan.uranium_raw": "Uranium raw",
-  "item.manhattan.yellowcake": "Yellowcake"
+  "item.manhattan.yellowcake": "Yellowcake",
+  "block.manhattan.chemical_leaching_machine_block": "Chemical leaching machine",
+  "container.manhattan.chemical_leaching_machine_menu_block": "Chemical leaching machine"
 }

@@ -4,7 +4,7 @@
   "block.manhattan.lead_block": "Block de plomb",
   "block.manhattan.carbon_block": "Block de carbon",
   "block.manhattan.lead_ore": "Minerai de plomb",
-  "itemGroup.manhattan.manhattan_tab": "Onglet Manhattan",
+  "itemGroup.manhattan.manhattan_tab": "Manhattan",
   "item.manhattan.lead_sword": "Épée en plomb",
   "item.manhattan.lead_axe": "Ache en plomb",
   "item.manhattan.lead_pickaxe": "Pioche en plomb",
@@ -16,5 +16,7 @@
   "item.manhattan.lead_boots": "Botte en plomb",
   "block.manhattan.uranium_ore": "Minerai d'uranium",
   "item.manhattan.uranium_raw": "Uranium brut",
-  "item.manhattan.yellowcake": "Yellowcake"
+  "item.manhattan.yellowcake": "Yellowcake",
+  "block.manhattan.chemical_leaching_machine_block": "Machine de lixiviation chimique",
+  "container.manhattan.chemical_leaching_machine_menu_block": "Machine de lixiviation chimique"
 }

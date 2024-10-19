@@ -1,6 +1,7 @@
 package dev.manhattan.mods.init;
 
 import dev.manhattan.mods.Mods;
+import dev.manhattan.mods.block.ChemicalLeachingMachineBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -45,5 +46,11 @@ public class BlocksInit {
                         .lightLevel(state -> 50)
                         .requiresCorrectToolForDrops(),
                     UniformInt.of(4, 7)
+            ));
+
+    public static final RegistryObject<ChemicalLeachingMachineBlock> CHEMICAL_LEACHING_MACHINE_BLOCK = BLOCKS.register("chemical_leaching_machine_block",
+            () -> new ChemicalLeachingMachineBlock(BlockBehaviour.Properties.of()
+                    .strength(4.0f, 4f)
+                    .noOcclusion()
             ));
 }
