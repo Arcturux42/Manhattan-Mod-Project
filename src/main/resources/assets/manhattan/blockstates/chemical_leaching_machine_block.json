@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "manhattan:block/chemical_leaching_machine_block_north" },
+    "facing=south": { "model": "manhattan:block/chemical_leaching_machine_block_south" },
+    "facing=east": { "model": "manhattan:block/chemical_leaching_machine_block_east" },
+    "facing=west": { "model": "manhattan:block/chemical_leaching_machine_block_west" }
+  }
+}

@@ -184,4 +184,10 @@ public class ItemsInit {
                     .stacksTo(64)
                     .rarity(Rarity.COMMON)
             )));
+
+    public static final RegistryObject<BlockItem> CHEMICAL_LEACHING_MACHINE_ITEM = addToTab(ITEMS.register("chemical_leaching_machine_item",
+            () -> new BlockItem(BlocksInit.CHEMICAL_LEACHING_MACHINE_BLOCK.get(),
+                    new Item.Properties()
+                            .rarity(Rarity.COMMON)
+            )));
 }
