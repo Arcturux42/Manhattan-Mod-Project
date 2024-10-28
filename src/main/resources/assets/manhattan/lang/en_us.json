@@ -25,5 +25,6 @@
   "item.manhattan.pizza": "honey goat cheese Pizza",
   "item.manhattan.uranium_ingot": "Uranium Ingot",
   "item.manhattan.lead_ingot": "Lead Ingot",
-  "item.manhattan.slice_of_pizza":"Slice of Pizza"
+  "item.manhattan.slice_of_pizza":"Slice of Pizza",
+  "item.manhattan.sulfuric_acid_bucket": "Bucket of sulfuric acid"
 }

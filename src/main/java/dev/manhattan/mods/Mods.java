@@ -28,6 +28,8 @@ public class Mods {
         BlockEntityInit.BLOCK_ENTITIES.register(bus); // Registers the block entities
         MenuInit.MENU_TYPES.register(bus); // Registers the menu types
         ClientInit.register(bus); // Registers client-side initializations
+        FluidsInit.FLUID_TYPES.register(bus); // Registers the fluids type
+        FluidsInit.FLUIDS.register(bus);    // Registers the fluids
         MinecraftForge.EVENT_BUS.register(CreativeTabInit.class); // Registers creative tab events in the Forge event bus
     }
 
