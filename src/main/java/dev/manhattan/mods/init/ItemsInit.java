@@ -3,6 +3,7 @@ package dev.manhattan.mods.init;
 import dev.manhattan.mods.Mods;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -195,4 +196,7 @@ public class ItemsInit {
                     new Item.Properties()
                             .rarity(Rarity.COMMON)
             ));
+
+    public static final RegistryObject<ForgeSpawnEggItem> NUCLEBUG_SPAWN_EGG = ITEMS.register("nuclebug_spawn_egg",
+            () -> new ForgeSpawnEggItem(EntitiesInit.NUCLEBUG_ENTITY, 0xF0ABD1, 0xAE4C82, new Item.Properties()));
 }

@@ -26,6 +26,7 @@ public class Mods {
         BlocksInit.BLOCKS.register(bus); // Registers the blocks
         CreativeTabInit.TABS.register(bus); // Registers the creative tabs
         BlockEntityInit.BLOCK_ENTITIES.register(bus); // Registers the block entities
+        EntitiesInit.ENTITIES.register(bus); // Registers the type of entities
         MenuInit.MENU_TYPES.register(bus); // Registers the menu types
         ClientInit.register(bus); // Registers client-side initializations
         FluidsInit.FLUID_TYPES.register(bus); // Registers the fluids type

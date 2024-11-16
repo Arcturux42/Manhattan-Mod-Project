@@ -26,5 +26,7 @@
   "item.manhattan.uranium_ingot": "Uranium Ingot",
   "item.manhattan.lead_ingot": "Lead Ingot",
   "item.manhattan.slice_of_pizza":"Slice of Pizza",
-  "item.manhattan.sulfuric_acid_bucket": "Bucket of sulfuric acid"
+  "item.manhattan.sulfuric_acid_bucket": "Bucket of sulfuric acid",
+  "entity.manhattan.nuclebug_entity": "Nuclebug",
+  "item.manhattan.nuclebug_spawn_egg": "Nuclebug egg"
 }

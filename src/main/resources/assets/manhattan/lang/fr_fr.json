@@ -26,5 +26,7 @@
   "item.manhattan.uranium_ingot": "Lingot d'Uranium",
   "item.manhattan.lead_ingot": "Lingot de Plomb",
   "item.manhattan.slice_of_pizza": "Part de Pizza",
-  "item.manhattan.sulfuric_acid_bucket": "Seau d'acide sulfuric"
+  "item.manhattan.sulfuric_acid_bucket": "Seau d'acide sulfuric",
+  "entity.manhattan.nuclebug_entity": "Nuclebug",
+  "item.manhattan.nuclebug_spawn_egg": "Oeuf de Nuclebug"
 }
