@@ -3,6 +3,7 @@ package dev.manhattan.mods.init;
 // Necessary imports for declaring and registering entities in Minecraft
 import dev.manhattan.mods.Mods;
 import dev.manhattan.mods.entity.NuclebugEntity;
+import dev.manhattan.mods.entity.RochaneEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -21,5 +22,12 @@ public class EntitiesInit {
             () -> EntityType.Builder.<NuclebugEntity>of(NuclebugEntity::new, MobCategory.CREATURE) // Define the entity type as a creature
                     .sized(1.0f, 1.0f) // Set the entity's hitbox size
                     .build(new ResourceLocation(Mods.MODID, "nuclebug_entity").toString()) // Build the entity with a unique resource location
+    );
+
+    // Registry object for the custom entity "Rochane
+    public static final RegistryObject<EntityType<RochaneEntity>> ROCHANE_ENTITY = ENTITIES.register("rochane_entity",
+            () -> EntityType.Builder.<RochaneEntity>of(RochaneEntity::new, MobCategory.MONSTER)
+                    .sized(2.0f, 2.0f)
+                    .build(new ResourceLocation(Mods.MODID, "rochane_entity"))
     );
 }
